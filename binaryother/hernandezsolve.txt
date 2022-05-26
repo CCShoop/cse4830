@@ -1,0 +1,3 @@
+For this binary, after inspecting the code in Binary Ninja, I knew that it would only accept 3 inputs with an unknown
+number of repetitions. By simply trying each number on each stage and noting which one worked, I was able to obtain
+the flag in a matter of minutes.

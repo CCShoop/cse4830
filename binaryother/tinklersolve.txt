@@ -1,0 +1,6 @@
+I opened the binary in Binary Ninja, found the entirety of main() to contain "fun()" and return(). Fun did not look
+very fun. I found a variable that was set to 1 when the incrementing variable equals 3 and noticed that it being
+anything but 0 triggered the flag. There was a variable determined by a function which got fed into the other function.
+This depends on the incrementing variable. I then mapped out all of the functions and values in a notepad and
+code traced it, confused by f2 starting with num not being initialized. I must have downloaded an early version
+of his binary, because it output "1" and 1 was the correct input. I then tried 9 when it said 9, 45 for 45, and 133 for 133. I found out that was the flag, and then did the netcat to find there was no output. I waited for a bit, and then realized it was probably silently waiting for input, so I tried 1, 9, 45, 133 and got the flag.

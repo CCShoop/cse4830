@@ -1,0 +1,2 @@
+Knowing my own binary, it was not too difficult to navigate through each function and find the input that would work for it.
+I did this by analyzing the high level language output in Binary Ninja.

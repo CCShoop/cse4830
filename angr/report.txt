@@ -1,0 +1,28 @@
+Cael Shoop
+CSE4830
+Lab 4
+
+
+chal1:
+This solve was given to us in class and allowed me to learned the basic syntax and steps necessary to solve the challenges.
+b'3680492096'
+
+chal2:
+
+b''
+
+chal3:
+
+b''
+
+chal4:
+After analyzing the given script further, I figured out that the goal address referred to the function that gives us >
+b'1342177325'
+
+fernalld:
+By modifying the same script from challenge 1 and 4, I was able to get a result that I could inject with a python pwntools script to get the flag.
+b'J0hn5!3g13r\x00\x08\x00\x1a\x08\x08\x08\x10\x02)\x01\x01\x80\x08\x00\x02\x08@\x08\x19\x08\x01J\x08\x01\x02I\x04\x98\x89\x00\x89\x02\x0e\x01\x01\x02\x02\x80\x10\x02\x01J\x01\x01\x08\x00\x02\x00'
+
+mann:
+By modifying the same script from challenge 1 and 4, I was able to get a result that I could inject with a python pwntools script to get the flag.
+b'SKY-CARL-\xb4\xdd\xe4\x9d\x04\x00\x00 \x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01 \x00\x00\x00\x00\x00@\x00\x00\x04@\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00 \x00\x00\x00\x00\x00\x00\x00'

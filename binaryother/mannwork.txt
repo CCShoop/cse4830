@@ -1,0 +1,21 @@
+failed second: ***-****-****
+failed third: LBN-defg-hijk
+
+second_check: contains "LBN", makes sense it works for first three letters
+third_check:
+ii = 4
+    rax_3 = 20
+    string[0] = *(input + 4)
+    string[0] = string[0] ^ (44)
+ii = 5
+    rax_3 = 25
+    string[1] = *(input + 5)
+    string[1] = string[1] ^ (55)
+ii = 6
+    rax_3 = 30
+    string[2] = *(input + 6)
+    string[2] = string[2] ^ (66)
+ii = 7
+    rax_3 = 35
+    string[3] = *(input + 7)
+    string[3] = string[3] ^ (77)

@@ -1,0 +1,32 @@
+a:
+6a6848b82f62696e2f2f2f73504889e768726901018134240101010131f6566a085e4801e656
+
+unhexlify:
+jhH\xb8/bin///sPH\x89\xe7hri\x01\x01\x814$\x01\x01\x01\x011\xf6Vj\x08^H\x01\xe6V
+
+
+
+
+
+
+b: ?
+31c031dbb017cd80eb1f5e89760831c088460789460cb00b89f38d4e088d560ccd8031db89d840cd80e8dcffffff
+soft locks it
+
+6877647c018134240101010148b86e6e696e672d6d6f5048b82d6f6e6c792d77695048b8666c61677b746865506a01586a015f6a1b5a4889e60f05
+b'flag{the-only-winning-move}'
+
+
+unhexlify: ?
+b'hwd|\x01\x814$\x01\x01\x01\x01H\xb8nning-moPH\xb8-only-wiPH\xb8flag{thePj\x01Xj\x01_j\x1bZH\x89\xe6\x0f\x05'
+b'flag{the-only-winning-move}'
+
+
+
+
+
+c:
+6a3b580f05
+
+unhexlify:
+j;X\x0f\x05

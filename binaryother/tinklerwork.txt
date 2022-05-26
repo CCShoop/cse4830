@@ -1,0 +1,77 @@
+ii = 0
+rdx_2 = f1(ii + ii {0}, ii {0})
+f1:
+    num = 1
+    for (ii = 0; ii < arg2 {0}; ii++)
+        num += arg1 {0}
+    return num {1}
+rax_5 = f2(rdx_2 {0}, 0)
+f2:
+    num
+    for (ii = 0; ii < arg2 {0}; ii++)
+        num += rdx_2 {0} * 2
+    return num {0?}
+
+INPUT 0: 0?
+
+----------------------------------------------
+
+ii = 1
+rdx_2 = f1(ii + ii {2}, ii {1})
+f1:
+    num = 1
+    for (ii = 0; ii < arg2 {1}; ii++)
+        num += arg1 {2}
+    return num {3}
+rax_5 = f2(rdx_2 {3}, ii {1})
+f2:
+    num
+    for (ii = 0; ii < arg2 {1}; ii++)
+        num += rdx_2 {3} * 2
+    return num {6?}
+
+INPUT 1: 6?
+
+-----------------------------------------------
+
+ii = 2
+rdx_2 = f1(ii + ii {4}, ii {2})
+f1:
+    num = 1
+    for (ii = 0; ii < arg2 {2}; ii++)
+        num += arg1 {4}
+    return num {9}
+rax_5 = f2(rdx_2 {9}, ii {2})
+f2:
+    num
+    for (ii = 0; ii < arg2 {2}; ii++)
+        num += rdx_2 {9} * 2
+    return num {36?}
+
+INPUT 2: 36?
+
+----------------------------------------------
+
+ii = 3
+rdx_2 = f1(ii + ii {6}, ii {3})
+f1:
+    num = 1
+    for (ii = 0; ii < arg2 {3}; ii++)
+        num += arg1 {6}
+    return num {19}
+rax_5 = f2(rdx_2 {19}, ii {3})
+f2:
+    num
+    for (ii = 0; ii < arg2 {3}; ii++)
+        num += rdx_2 {19} * 2
+    return num {114?}
+
+INPUT 3: 114?
+
+
+-------------------------------------------
+ACTUAL:
+1: !0, 1
+9: !6, !7, 9
+45: 45
+133: 133

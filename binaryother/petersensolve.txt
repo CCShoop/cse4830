@@ -1,0 +1,7 @@
+Upon opening Binary Ninja I immediately saw 3 multiply() functions that took variables as input. These variables
+were entered (with the first and second inputs flipped in order) by the user and then modified by the multiply()
+function prior to going into the pass() function. Looking into the multiply function, I realized that it did not
+modify the input value at all before returning it. I followed the inputs (in order) to the pass() function,
+and went through each of the rax values to determine what they were returned as, finding 2548, 162, and 128.
+I looked at the if/else statements and noticed that rax_2 and rax_1 are flipped while the input args are in order,
+so I flipped the second and third input and got the flag with "2548 128 162."

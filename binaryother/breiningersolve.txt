@@ -1,0 +1,5 @@
+I opened the binary in Binary Ninja and found the ptrace condition that swapped which string the input was compared to.
+Upon looking into the called function, I found that it beginning with "h" would end the program, so the input
+had to be put in while the binary was running with ptrace active. Running the binary in gdb allowed me to,
+while considering the letter/number conversions, confirm that "p3anut br1ttl3" was the correct input. As for the pin,
+I reversed the calculations done and determined that it was 7.

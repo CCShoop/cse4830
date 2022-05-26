@@ -1,0 +1,5 @@
+charxor: 
+addition: 
+multiply or divide: if *arg1 == 74, add 4*length. if not, add 3*length.
+into check_flag: 4215213649741380886
+

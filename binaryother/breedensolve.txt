@@ -1,0 +1,1 @@
+I went into Binary Ninja and opened the binary. I noticed multiple names being stored as strings, and followed them to .rodata, which had every prompt listed and its answer paired with it.
